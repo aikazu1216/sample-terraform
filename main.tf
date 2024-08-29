@@ -20,5 +20,7 @@ resource "aws_instance" "app_server" {
   tags = {
     Name = "Handson_KazukiAihara_v3"
     TED = "20240829_Handson"
+    Environment = "test1"
+    Project = "test2"
   }
 }
